@@ -1,0 +1,24 @@
+# NAME: ready card
+# AUTHOR: Gemini
+# UPDATED: 2026-01-02 22:13:30
+# DOMAIN-SUFFIX: 9
+# DOMAIN-KEYWORD: 2
+# TOTAL: 15
+DOMAIN-SUFFIX,ready.co
+DOMAIN-SUFFIX,argent.xyz
+DOMAIN-SUFFIX,argent.link
+DOMAIN-SUFFIX,starknetkit.com
+DOMAIN-KEYWORD,argentlabs
+# === Starknet 基础设施 (强相关) ===
+DOMAIN-KEYWORD,starknet           # 涵盖 Starknet 官方及浏览器
+DOMAIN-SUFFIX,starknet.io         # Starknet 官方节点与网关
+DOMAIN-SUFFIX,voyager.online      # Starknet 区块浏览器 (App 内查看交易详情用)
+# === 第三方 RPC 服务 (Ready 可能调用的节点) ===
+# 建议放行，因为钱包通常会轮询这些节点
+DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,alchemy.com
+DOMAIN-SUFFIX,lavanet.xyz
+
+
+
+
