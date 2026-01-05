@@ -20,7 +20,9 @@ DOMAIN-SUFFIX,voyager.online      # Starknet 区块浏览器 (App 内查看交�
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,alchemy.com
 DOMAIN-SUFFIX,lavanet.xyz
-
-
+# 其他
+DOMAIN,cdp-eu.customer.io
+DOMAIN,pulse.walletconnect.com
+DOMAIN,api.eu.amplitude.com
 
 
