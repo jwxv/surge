@@ -6,9 +6,11 @@
 # TOTAL: 15
 DOMAIN-SUFFIX,ready.co
 DOMAIN-SUFFIX,argent.xyz
+DOMAIN-SUFFIX,argent.net
 DOMAIN-SUFFIX,argent.link
 DOMAIN-SUFFIX,starknetkit.com
 DOMAIN-KEYWORD,argentlabs
+DOMAIN-KEYWORD,argent
 # === Starknet 基础设施 (强相关) ===
 DOMAIN-KEYWORD,starknet           # 涵盖 Starknet 官方及浏览器
 DOMAIN-SUFFIX,starknet.io         # Starknet 官方节点与网关
