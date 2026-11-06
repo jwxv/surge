@@ -19,7 +19,7 @@ DOMAIN,gspe1-ssl.ls.apple.com
 # 兜底: 覆盖 apple-relay.akamaized.net、apple-relay.mask.apple-dns.net 及日后新增的 relay 主机
 # DOMAIN-KEYWORD,apple-relay
 
-# 令牌 / 中继链路 (与 Private Relay 同类基础设施；iOS 27 Siri AI 的社区清单均含) ----------
+# 令牌 / 中继链路 (与 Private Relay 同类基础设施；iOS 27 Siri AI 的社区清单均含) 
 # 不需要可整段删除
 # DOMAIN,mask.icloud.com
 # DOMAIN,mask-h2.icloud.com
