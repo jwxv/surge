@@ -1,0 +1,14 @@
+# Apple Intelligence & Private Cloud Compute (PCC)
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# Siri 语音、听写与智能搜索
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN,api-siri-prod.apple.com
+
+# 地区检测（用于解锁 Siri 调用 ChatGPT 扩展，不影响本地地图定位）
+DOMAIN,gspe1-ssl.ls.apple.com
