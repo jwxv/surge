@@ -19,9 +19,9 @@ DOMAIN,mask.apple-dns.net
 # 仅个别来源提到 / 范围偏宽，默认关闭，遇到「地区不支持」再逐条打开
 # DOMAIN,apple-carry-relay.cloudflare.com
 # DOMAIN-KEYWORD,apple-relay
-# DOMAIN-SUFFIX,ls.apple.com
-# DOMAIN,wps.apple.com
-# DOMAIN,apps.mzstatic.com
-# DOMAIN-KEYWORD,siri
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN,wps.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-KEYWORD,siri
 # DOMAIN,pcc.apple.com
 # DOMAIN-SUFFIX,apple-magellan.com
