@@ -12,3 +12,21 @@ DOMAIN,api-siri-prod.apple.com
 
 # 地区检测（用于解锁 Siri 调用 ChatGPT 扩展，不影响本地地图定位）
 DOMAIN,gspe1-ssl.ls.apple.com
+
+# CloudKit 入口，社区用它修复 ChatGPT 扩展"地区不可用"；属通用 iCloud 服务，若 iCloud 异常可先注释
+# DOMAIN,gateway.icloud.com
+
+# 兜底: 覆盖 apple-relay.akamaized.net、apple-relay.mask.apple-dns.net 及日后新增的 relay 主机
+# DOMAIN-KEYWORD,apple-relay
+
+# 令牌 / 中继链路 (与 Private Relay 同类基础设施；iOS 27 Siri AI 的社区清单均含) ----------
+# 不需要可整段删除
+# DOMAIN,mask.icloud.com
+# DOMAIN,mask-h2.icloud.com
+# DOMAIN,mask-api.icloud.com
+# DOMAIN,mask-boot.icloud.com
+# DOMAIN,mask-canary.icloud.com
+# DOMAIN,mask.apple-dns.net
+# DOMAIN,mask-t.apple-dns.net
+# DOMAIN,mask-api.fe.apple-dns.net
+# DOMAIN,mask-api.fe2.apple-dns.net
