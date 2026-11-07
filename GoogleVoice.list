@@ -1,0 +1,28 @@
+# === Google Voice 专属分流规则 (需置于 Google 通用规则上方) ===
+# 1. 核心主域名与长连接
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN,lens.l.google.com
+
+# 2. Google Voice 专属后端 RPC 接口 (Scone & Tachyon 信令)
+DOMAIN,scone-pa.clients6.google.com
+DOMAIN,scone-pa.googleapis.com
+DOMAIN,instantmessaging-pa.googleapis.com
+DOMAIN,instantmessaging-pa.clients6.google.com
+DOMAIN,telephonyspamprotect-pa.googleapis.com
+
+# 3. WebRTC STUN 穿透服务
+#DOMAIN-KEYWORD,stun
+# 若不想用 KEYWORD 误伤其它 STUN，可替换为精确匹配：
+DOMAIN,stun.l.google.com
+DOMAIN,stun1.l.google.com
+DOMAIN,stun2.l.google.com
+DOMAIN,stun3.l.google.com
+DOMAIN,stun4.l.google.com
+
+# 4. 官方语音媒体流纯 IP 段 (无需解析域名，直接匹配 UDP/TCP 媒体包)
+IP-CIDR,74.125.39.0/24,no-resolve
+IP-CIDR,74.125.250.129/32,no-resolve
+IP-CIDR6,2001:4860:4864:2::/64,no-resolve
+
+# 5. 进阶兜底：针对 Google Voice 专用 UDP 媒体端口的复合规则
+AND,((PROTOCOL,UDP), (DEST-PORT,26500-26501))
