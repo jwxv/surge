@@ -1,6 +1,3 @@
-# NAME: MetaMuse
-# DESCRIPTION: Meta Muse Core / Secure VM / OHTTP (配合 blackmatrix7 规则使用)
-
 # === 核心: Muse 应用与 Meta 平台 ===
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,museai.com
@@ -24,3 +21,17 @@ DOMAIN,meta-ohttp-config-prod.fastly-edge.com
 # === Muse 专用边缘节点 ===
 DOMAIN,edge-metaclaw-http.c10r.facebook.com
 DOMAIN,shortwave.facebook.com
+
+# === WhatsApp 集成 ===
+# DOMAIN-SUFFIX,whatsapp.com
+# DOMAIN-SUFFIX,whatsapp.net
+
+# === Meta 账号体系 / Facebook / Instagram ===
+# DOMAIN-SUFFIX,facebook.com
+# DOMAIN-SUFFIX,facebook.net
+# DOMAIN-SUFFIX,fbcdn.net
+# DOMAIN-SUFFIX,fbsbx.com
+# DOMAIN-SUFFIX,fbpigeon.com
+# DOMAIN-SUFFIX,fb.com
+# DOMAIN-SUFFIX,instagram.com
+# DOMAIN-SUFFIX,cdninstagram.com
