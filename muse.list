@@ -1,0 +1,26 @@
+# NAME: MetaMuse
+# DESCRIPTION: Meta Muse Core / Secure VM / OHTTP (配合 blackmatrix7 规则使用)
+
+# === 核心: Muse 应用与 Meta 平台 ===
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+
+# === 云端虚拟机 (Secure VM / Hatch / Ecto1) ===
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,hatch.one
+
+# === 隐私中继 (OHTTP / Privacy Gateway) ===
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+
+# === Muse 专用边缘节点 ===
+DOMAIN,edge-metaclaw-http.c10r.facebook.com
+DOMAIN,shortwave.facebook.com
